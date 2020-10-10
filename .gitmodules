@@ -1,0 +1,3 @@
+[submodule "Image-Morphing"]
+	path = Image-Morphing
+	url = https://github.com/liaojing/Image-Morphing.git
