@@ -1,3 +1,6 @@
 [submodule "Image-Morphing"]
 	path = Image-Morphing
 	url = https://github.com/liaojing/Image-Morphing.git
+[submodule "MorphLib"]
+	path = MorphLib
+	url = https://github.com/liaojing/MorphLib.git
