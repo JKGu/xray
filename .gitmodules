@@ -1,9 +1,3 @@
-[submodule "Image-Morphing"]
-	path = Image-Morphing
-	url = https://github.com/liaojing/Image-Morphing.git
-[submodule "MorphLib"]
-	path = MorphLib
-	url = https://github.com/liaojing/MorphLib.git
 [submodule "Modules/Morphing/MorphLib"]
 	path = Modules/Morphing/MorphLib
 	url = https://github.com/JKGu/MorphLib.git
