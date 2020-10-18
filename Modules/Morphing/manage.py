@@ -50,6 +50,15 @@ def init_wrkdir(
                 full_file_name = os.path.join(maskPath, file)
                 shutil.copy(full_file_name,__MYDIR+ '/MorphLib/UserFiles/Masks/')
 
+def run_morph_exe():
+    dir_tmp = os.getcwd()
+    os.chdir(__MYDIR+"\Morph\src")
+    print("DIR changed to ",os.getcwd())
+    print("Executing Example.exe...")
+    os.system("Example.exe")
+    print("Executable finished.")
+    os.chdir(dir_tmp)
+    print("DIR changed back to ",os.getcwd())
 
 def getOutputImage(outputPath):
     shutil.copy(__MYDIR+'/MorphLib/UserFiles/OutputImages/output.png', outputPath)
