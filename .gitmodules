@@ -1,0 +1,3 @@
+[submodule "Modules/Morphing/MorphLib"]
+	path = Modules/Morphing/MorphLib
+	url = https://github.com/JKGu/MorphLib.git
