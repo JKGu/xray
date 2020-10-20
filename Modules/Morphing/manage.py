@@ -1,6 +1,8 @@
 import os
 import shutil
 import pathlib
+import matplotlib.image as mpimg 
+import matplotlib.pyplot as plt 
 def __create_folder_if_not_exist(str):
     if not os.path.isdir(str):
         try:
@@ -59,6 +61,15 @@ def run_morph_exe():
     print("Executable finished.")
     os.chdir(dir_tmp)
     print("DIR changed back to ",os.getcwd())
+    print("Result image:")
+    viewOutputImage()
+    cleanup_tmpfolder()
+
+def viewOutputImage():
+    img = mpimg.imread(__MYDIR+'/MorphLib/UserFiles/OutputImages/output.png') 
+    plt.imshow(img) 
 
 def getOutputImage(outputPath):
     shutil.copy(__MYDIR+'/MorphLib/UserFiles/OutputImages/output.png', outputPath)
+    img = mpimg.imread(__MYDIR+'/MorphLib/UserFiles/OutputImages/output.png') 
+    plt.imshow(img) 
