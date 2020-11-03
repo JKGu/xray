@@ -1,0 +1,26 @@
+{
+  "version": "4.5.6",
+  "flags": {},
+  "shapes": [
+    {
+      "label": "lungs",
+      "points": [
+        [
+          28.6875,
+          95.0
+        ],
+        [
+          931.8125,
+          746.5625
+        ]
+      ],
+      "group_id": null,
+      "shape_type": "rectangle",
+      "flags": {}
+    }
+  ],
+  "imagePath": "00006735_000.png",
+  "imageData": null,
+  "imageHeight": 1024,
+  "imageWidth": 1024
+}
