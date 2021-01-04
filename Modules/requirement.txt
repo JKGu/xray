@@ -1,9 +1,0 @@
-tensorflow-gpu==1.15
-tensorflow-estimator==1.15
-Cython
-pillow
-lxml
-jupyter
-matplotlib
-tf_slim
-numpy==1.18.5
