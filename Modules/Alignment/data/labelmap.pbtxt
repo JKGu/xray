@@ -1,0 +1,8 @@
+item {
+  id: 1
+  name: 'lungs'
+}
+item {
+  id: 2
+  name: 'notDetected'
+}
